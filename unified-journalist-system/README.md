@@ -53,3 +53,31 @@ Full changelog inside each file.
 2. Open a new conversation in that platform.
 3. Paste the entire system file as the system prompt.
 4. Use commands directly:
+
+sabah
+breaking deprem
+teyit "Cumhurbaşkanı istifa etti"
+başlık faiz kararı
+analiz [URL] + kontrol
+tara İBB 48s
+gundem Türkiye seçim
+nabız merkez bankası          ← Grok only
+infografik [veri]             ← Gemini only
+
+Each command's output template and behavior is defined inside the file.
+
+## Limitations
+
+- All output is in Turkish (an English version is planned).
+- Real-time commands (`sabah`, `radar`, `sessiz kriz`, `fırsat`) require live data input on platforms without web search.
+- `nabız` runs automatically only on Grok — other platforms require manual data paste.
+- `köşe yazarı` requires URL or publication name to function.
+- Output requires human editorial review before publication.
+
+## Background
+
+Built and tested under live broadcast conditions. The system evolved through iterative testing, error pattern analysis, and platform-specific adaptation. Earlier versions are documented in commit history.
+
+---
+
+*Part of [prompt-engineering-for-journalism](../README.md).*
