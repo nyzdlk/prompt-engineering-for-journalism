@@ -22,13 +22,13 @@ A methodology for designing AI systems in high-accountability environments:
 6. Close the abstract-concrete loop
 7. Define the trigger
 
-Full write-up coming soon.
+Full write-up: [The Seven-Step Framework](seven-step-framework/README.md).
 
 ### Unified Journalist System
 
 Multi-platform editorial assistant covering daily briefing, source verification, headline generation, OSINT monitoring, breaking news protocol, foreign press analysis, and columnist tracking.
 
-Three platform variants:
+Three platform variants (reference; current work uses Claude and ChatGPT):
 - Gemini (Google ecosystem integration)
 - Grok (real-time X access)
 - Perplexity (citation engine + academic search)
@@ -41,17 +41,13 @@ Four interconnected systems for cultural reporting workflows:
 - THOUGHT_FORGE (idea-to-draft pipeline)
 - RED_TEAM (decision stress testing)
 
-### News Pitch System
-
-Newsroom-oriented prompt system for daily news idea generation, with platform-specific variants for ChatGPT, Gemini, and Grok.
-
 ## Measured outcomes
 
-- Story production time: 90–120 minutes → ~10 minutes
-- Newsroom editorial approval rate: 95%
+*Based on my own tests, not peer-reviewed.*
+
+- Story production time: 40 minutes → 3–4 minutes
 - Legal status error rate: 70% → 12% (after prompt architecture revision)
 - Source attribution compliance: 34% → 89% (after hierarchy layer)
-- OSINT scan: 152 sources processed in 1.6 seconds
 
 ## How to use
 
@@ -59,7 +55,7 @@ Each system is in its own folder with the full system prompt, a README explainin
 
 ## Background
 
-Built by [Niyazi Dolek](https://github.com/nyzdlk) — news editor with sixteen years in broadcast journalism, specializing in crime and courts. These systems were developed independently in response to specific failure modes observed in AI-generated news output: legal status confusion, attribution gaps, and context loss.
+Built by [Niyazi Dölek](https://github.com/nyzdlk) — news editor with sixteen years in broadcast journalism, specializing in crime and courts. These systems were developed independently in response to specific failure modes observed in AI-generated news output: legal status confusion, attribution gaps, and context loss.
 
 ## License
 

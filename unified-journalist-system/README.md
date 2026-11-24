@@ -24,11 +24,11 @@ The system has four files. Each one targets a different platform's strength:
 | File | Platform | Strength |
 |------|----------|----------|
 | `unified.md` | Platform-agnostic | Full reference version |
-| `gemini.md` | Google Gemini | Scholar, Trends, YouTube, Maps integration |
-| `grok.md` | xAI Grok | Real-time X access, public sentiment |
-| `perplexity.md` | Perplexity | Citation engine, academic search |
+| `gemini.md` | Google Gemini (reference) | Scholar, Trends, YouTube, Maps integration |
+| `grok.md` | xAI Grok (reference) | Real-time X access, public sentiment |
+| `perplexity.md` | Perplexity (reference) | Citation engine, academic search |
 
-The platform-agnostic version (`unified.md`) is the canonical reference. The three platform variants adapt the same logic to each platform's specific capabilities.
+The platform-agnostic version (`unified.md`) is the canonical reference and is the one to use with Claude or ChatGPT. The Gemini, Grok, and Perplexity variants are kept as reference versions; they adapt the same logic to each platform's specific capabilities.
 
 ## Version
 
@@ -49,7 +49,7 @@ Full changelog inside each file.
 
 ## How to use
 
-1. Choose the platform you want to use (Gemini, Grok, Perplexity, or the platform-agnostic version).
+1. Choose the platform you want to use (the platform-agnostic version for Claude or ChatGPT, or a reference variant for Gemini, Grok, or Perplexity).
 2. Open a new conversation in that platform.
 3. Paste the entire system file as the system prompt.
 4. Use commands directly:
