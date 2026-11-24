@@ -1,6 +1,6 @@
 # The Seven-Step Framework
 
-A methodology for designing AI systems in high-accountability environments. Developed through two years of iterative testing inside a live broadcast newsroom.
+A methodology for designing AI systems in high-accountability environments. Developed since 2023 through iterative testing inside a live broadcast newsroom.
 
 ## Why this framework exists
 
@@ -60,7 +60,7 @@ Most failures in AI system design come from skipping steps 1, 3, and 4. Builders
 
 ## Where this came from
 
-This framework was extracted from working on Turkish-language newsroom systems for two years. It started as a checklist. It became a methodology after I noticed I was applying the same seven moves regardless of which system I was building.
+This framework was extracted from working on Turkish-language newsroom systems since 2023. It started as a checklist. It became a methodology after I noticed I was applying the same seven moves regardless of which system I was building.
 
 The framework is domain-agnostic. It applies to any high-accountability AI deployment — legal tech, medical decision support, financial reporting, journalism. The pain points differ; the design discipline does not.
 

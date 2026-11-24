@@ -4,6 +4,8 @@ A four-system AI architecture designed for journalists covering culture, society
 
 ## The four systems
 
+The system prompts for these four systems are not published in this repository; this page describes their design.
+
 The architecture is built on the principle that different editorial tasks require different cognitive modes. One prompt cannot do all four well. Instead, each system specializes in one phase of the work, and the systems hand off to each other through structured triggers.
 
 ### INTEL_STREAM — International Media Monitor

@@ -1,14 +1,20 @@
 # Prompt Engineering for Journalism
 
-Prompt architectures, evaluation frameworks, and editorial guardrails for AI-assisted news production. Built and tested under live broadcast conditions over two years.
+Prompt architectures, evaluation frameworks, and editorial guardrails for AI-assisted news production. Built and tested under live broadcast conditions since 2023.
 
 ## Why this exists
 
-Most AI-for-journalism guides stop at "use ChatGPT to summarize." This repository documents what comes after: how to build domain-specific prompt systems that hold up under deadline pressure, legal scrutiny, and the kind of accuracy demands public broadcasting requires.
+Most AI-for-journalism guides stop at "use ChatGPT to summarize." This repository documents what comes after: how to build domain-specific prompt systems that hold up under deadline pressure, legal scrutiny, and the kind of accuracy demands broadcast news requires.
 
-The systems here are not theoretical. They were built inside an active newsroom, refined through error pattern analysis, and measured against newsroom editorial review. Specific accuracy gains, error reductions, and time savings are documented per system.
+The systems here are not theoretical. They were built inside an active newsroom, refined through error pattern analysis, and measured against newsroom editorial review.
 
 ## What's inside
+
+### Editorial Rule System (current work)
+
+A rule system for writing and auditing TV news with AI, used with Claude, ChatGPT and Gemini. One master rule file generates three profiles: story writing, wall graphics and audit. It has 36 red-line rules, a script with 77 mechanical checks for stories and 11 for wall graphics, 47 gold-standard example stories, and a test suite that every rule change must pass.
+
+Full write-up: [Editorial Rule System](editorial-rule-system/README.md).
 
 ### The Seven-Step Framework
 
@@ -49,9 +55,11 @@ Four interconnected systems for cultural reporting workflows:
 - Legal status error rate: 70% → 12% (after prompt architecture revision)
 - Source attribution compliance: 34% → 89% (after hierarchy layer)
 
+Method: [N stories, date range, what was counted]
+
 ## How to use
 
-Each system is in its own folder with the full system prompt, a README explaining when and how to use it, and version notes. Copy the system prompt into the relevant platform's system instructions field.
+The Unified Journalist System folder contains the full system prompts; copy one into the relevant platform's system instructions field. The Seven-Step Framework and AI System Architecture folders contain write-ups only; their prompts are not published here. The Editorial Rule System folder documents the rules, the checks and the test method.
 
 ## Background
 
