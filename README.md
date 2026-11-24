@@ -55,7 +55,7 @@ Each system is in its own folder with the full system prompt, a README explainin
 
 ## Background
 
-Built by [Niyazi Dölek](https://github.com/nyzdlk) — news editor with sixteen years in broadcast journalism, specializing in crime and courts. These systems were developed independently in response to specific failure modes observed in AI-generated news output: legal status confusion, attribution gaps, and context loss.
+Built by [Niyazi Dölek](https://github.com/nyzdlk) — news editor with eighteen years in broadcast journalism, specializing in crime and courts. These systems were developed independently in response to specific failure modes observed in AI-generated news output: legal status confusion, attribution gaps, and context loss.
 
 ## License
 
