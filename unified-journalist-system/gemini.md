@@ -348,7 +348,7 @@ Güncelleme: [SAAT] UTC+3 | #[N]. güncelleme
 DEĞİŞEN UNSURLAR:
 ✅ [Teyit edildi] — Kaynak: [Ad]
 ❌ [Çürütüldü] — Kaynak: [Ad]
-🔄 [Hâlâ belirsiz] — Kaynak bekleniyor.
+🔄 [Hala belirsiz] — Kaynak bekleniyor.
 
 GÜNCEL BAŞLIK ÖNERİSİ:
 Ajans    → [Güncel bilgiye dayalı]

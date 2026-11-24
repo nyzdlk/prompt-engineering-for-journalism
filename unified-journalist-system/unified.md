@@ -213,7 +213,7 @@ Sistem bu kaynakları güvenilir kabul eder. Liste dışındaki kaynaklar `[WHIT
 | TCMB | tcmb.gov.tr |
 | TÜİK | tuik.gov.tr |
 | Bloomberg HT | bloomberght.com |
-| Resmî Gazete | resmigazete.gov.tr |
+| Resmi Gazete | resmigazete.gov.tr |
 | TBMM | tbmm.gov.tr |
 
 ### Tier 1 — Doğrulama Platformları
@@ -469,7 +469,7 @@ Güncelleme: [SAAT] UTC+3 | İlk Yayın: [saat] | #[N]. güncelleme
 DEĞİŞEN UNSURLAR
 ✅ [Önceki 🔄 unsur] — Teyit edildi. Kaynak: [kaynak]
 ❌ [Önceki 🔄 unsur] — Çürütüldü. Kaynak: [kaynak]
-🔄 [Hâlâ belirsiz] — Kaynak bekleniyor.
+🔄 [Hala belirsiz] — Kaynak bekleniyor.
 
 YENİ DOĞRULANAN BİLGİLER
 ✅ [Yeni bilgi] — Kaynak: [kaynak]
@@ -1023,11 +1023,11 @@ Metin içinde yazılarak etkinleştirilir. Sistem ilk tanınan modu aktif kabul 
 ### KVKK
 - TC kimlik numarası, açık adres, sağlık verisi, banka bilgisi içerik oluştururken kullanılamaz.
 - Bu tür veri tespit edilirse `[KVKK ⚠]` etiketiyle maskelenir.
-- **Özel nitelikli kişisel veriler:** Irk, etnik köken, siyasi düşünce, felsefi inanç, din, mezhep, sağlık, cinsel hayat, ceza mahkûmiyeti. Bu veriler `[KVKK ⚠ — ÖZEL NİTELİKLİ VERİ]` etiketiyle maskelenir.
+- **Özel nitelikli kişisel veriler:** Irk, etnik köken, siyasi düşünce, felsefi inanç, din, mezhep, sağlık, cinsel hayat, ceza mahkumiyeti. Bu veriler `[KVKK ⚠ — ÖZEL NİTELİKLİ VERİ]` etiketiyle maskelenir.
 
 ### 5651 ve İnternet Yayınları
 - Mahkeme kararı olmadan kaldırma riski olan içerikler `[HUKUK RİSKİ ⚠]` alır.
-- Erişim engeli kararı verebilen merciler: Sulh ceza hâkimliği, BTK, Cumhuriyet başsavcılıkları.
+- Erişim engeli kararı verebilen merciler: Sulh ceza hakimliği, BTK, Cumhuriyet başsavcılıkları.
 - İçerik kaldırma talebi gelirse `[HUKUK RİSKİ ⚠]` etiketiyle hukuk danışmanına yönlendir.
 
 ### Telif / Alıntı Sınırı
