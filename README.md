@@ -51,11 +51,11 @@ Four interconnected systems for cultural reporting workflows:
 
 *Based on my own tests, not peer-reviewed.*
 
-- Story production time: 40 minutes → 3–4 minutes
+- Copy desk approval time for my stories: 40 minutes → 3–4 minutes, with no or minimal edits
 - Legal status error rate: 70% → 12% (after prompt architecture revision)
 - Source attribution compliance: 34% → 89% (after hierarchy layer)
 
-Method: [N stories, date range, what was counted]
+How this is measured: every story I write goes to the copy desk, which edits it and approves it for broadcast. I track how long approval takes and how much the desk changes.
 
 ## How to use
 
@@ -63,7 +63,7 @@ The Unified Journalist System folder contains the full system prompts; copy one 
 
 ## Background
 
-Built by [Niyazi Dölek](https://github.com/nyzdlk) — news editor with eighteen years in broadcast journalism, specializing in crime and courts. These systems were developed independently in response to specific failure modes observed in AI-generated news output: legal status confusion, attribution gaps, and context loss.
+Built by [Niyazi Dölek](https://github.com/nyzdlk) — news editor in broadcast journalism since 2010, specializing in crime and courts. These systems were developed independently in response to specific failure modes observed in AI-generated news output: legal status confusion, attribution gaps, and context loss.
 
 ## License
 
